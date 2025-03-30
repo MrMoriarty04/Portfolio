@@ -1,0 +1,87 @@
+:root{
+    --Background:#fff0f0;
+    --Primary:#a9b3df;
+    --Secondary:#2d336c;
+    --Accent:#7a88c7;
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+
+}
+
+html{
+    box-sizing: border-box;    
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--sans);
+    background-color: var(--Background);
+    color: var(--Secondary);
+    font-size: var(--font-size);
+}
+a{
+    color: var(--Accent);
+}
+a:hover{
+    color: var(--Secondary);
+    text-decoration: none;
+}
+
+.intro-section{
+    padding-bottom: 10rem;
+
+}
+
+.intro-section p{
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.intro-section .my-name{
+   font-family: var(--mono); 
+}
+
+.intro-section .name{
+    display: block;
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--Accent);
+}
+
+.intro-section .quick-intro{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.contact-section{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    background-color: var(--Primary);  
+    font-size: 0.9rem;
+    line-height: 1.5;
+    
+}
+.contact-section span{
+    display: block;
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact-section .contact-email{
+    display: block;
+    text-align: center;
+    color: var(--Secondary);
+}
