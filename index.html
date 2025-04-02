@@ -3,17 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Rami Aljaber Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <nav class="upper-nav">
+      <ul class="nav-group">
+        <li>
+          <h1 class="logo">
+            <a href="index.html"
+              ><span class="fa-solid fa-terminal" aria-hidden="true"></span>
+              Rami Aljaber</a
+            >
+          </h1>
+        </li>
+        <li class="nav-elements"><a href="">Projects</a></li>
+        <li class="nav-elements"><a href="about.html">About</a></li>
+        <li class="nav-elements"><a href="#contact">Contact</a></li>
+        <li class="nav-elements">
+          <a href="https://linkedin.com/in/ramialjaber" target="_blank">
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li class="nav-elements">
+          <a href="https://github.com/MrMoriarty04" target="_blank"
+            ><span class="fa-brands fa-github" aria-hidden="true"></span>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li class="nav-elements">
+          <a
+            class="resume-button"
+            href="https://drive.google.com/file/d/1DSCfFb2k_1WAFgGBBvCu213mJwcYRtB7/view?usp=sharing"
+            target="_blank"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+
     <section class="intro-section">
       <div class="my-name">
         Hi , my name is
@@ -39,12 +79,39 @@
       </div>
     </section>
 
-    <section class="contact-section">
+    <div class="gradient"></div>
+    <section class="contact-section" id="contact">
       <div class="contact-info">
-        <span>Contact me</span> <pre>       I'm always interested in hearing about your offers and opinian
-            and lets stay tuned for whats comming.</pre>
-        <a class="contact-email" href="nowhere">Email me</a>
-      <div/>
+        <span>Contact me</span>
+        <p>
+          I'm always interested in hearing about your offers and opinian and
+          lets stay tuned for whats comming.
+        </p>
+        <a class="contact-email" href="nowhere"> Email me</a>
+      </div>
     </section>
+
+    <div class="gradient"></div>
+
+    <footer>
+      <div>Rami Aljaber &middot; Web developer</div>
+      <div>
+        <a href="https://www.linkedin.com/in/ramialjaber/" target="_blank">
+          <span class="fa-brands fa-linkedin aria-hidden=true"></span>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/MrMoriarty04" target="_blank">
+          <span class="fa-brands fa-square-github aria-hidden=true"></span>
+          <span class="sr-only">Github</span>
+        </a>
+
+        <a href="">
+          <span class="fa-solid fa-envelope aria-hidden=true"></span>
+          <span class="sr-only">Email</span>
+        </a>
+      </div>
+      <small><div>&copy; 2025 Rami Aljaber. All rights reserved.</div></small>
+    </footer>
   </body>
 </html>
