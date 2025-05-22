@@ -122,60 +122,33 @@ background-color: var(--hotmag);
     height: 2px;
 }
 
-.intro-section {
-    padding:4rem 1rem 10rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.intro-section p{
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.intro-section .my-name {
-    font-family: var(--mono);
-}
-
-.intro-section .my-name .name{
-    font-family: var(--sans);
-    font-size: 4rem;
-    color: var(--aqua);
-    display: block;
-}
-
-.intro-section .quick-intro p{
-    font-size: 4rem;
-    font-weight: normal;
-    margin: 0;
-}
 
 .section-dkblue{
 background-color: var(--dkblue);
 }
 
-.my-projects{
+.about-rami{
     padding: 4rem 1rem;
 
 }
 
-.my-projects h2{
+.about-rami h2{
     font-size: 2.5rem;
     margin-bottom: calc(2.5rem*1.5);
 }
 
-.my-projects h3{
+.about-rami h3{
     color: var(--aqua);
 
 }
 
-.my-projects h4{
+.about-rami h4{
     font-size: 1rem;
     font-family: var(--mono);
     margin: 0;
 }
 
-.my-projects .description{
+.about-rami .description{
     background-color: var(--black);
     padding: 1rem;
     border-radius: 10px;
@@ -184,7 +157,7 @@ background-color: var(--dkblue);
     line-height: 1.5;
 }
 
-.my-projects .tech-stack{
+.about-rami .tech-stack{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -195,7 +168,7 @@ background-color: var(--dkblue);
     font-size: 1rem;
 }
 
-.my-projects img{
+.about-rami img{
     margin: 2rem 0 4rem 0;
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
@@ -205,31 +178,6 @@ background-color: var(--dkblue);
 
 
 
-.contact-section {
-    width: 400px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 3rem 0;
-}
-
-.contact-section .contact-info p:last-child{
-    margin-top: 3rem;
-}
-
-.contact-section .contact-email{
-    font-family: var(--mono);
-    text-decoration: none;
-    color: var(--white);
-    background-color: var(--magenta);
-    padding: 0.45rem;
-    border-radius: 7px;
-
-}
-
-.contact-section .contact-email:hover{
-color: var(--white);
-background-color: var(--hotmag);
-}
 
 
 footer{
@@ -264,22 +212,19 @@ footer ul{
 
 @media(min-width:810px){
 
-    .project .description{
-        text-align: left;
-    }
-    .my-projects{
+    .about-rami{
          max-width: 1200px;
         margin: 0 auto;
     }
 
-    .project{
+    .main-info{
         display: grid;
         grid-template-columns:repeat(10,1fr);
         gap: 1rem;
 
     }
 
-    .project img{
+    .main-info img{
         grid-column: 1/6;
         grid-row: 1/2;
     }
@@ -291,27 +236,8 @@ footer ul{
         order: 2;
         text-align: right;
     }
-    .project .tech-stack{
+    .main-info .tech-stack{
         justify-content: flex-end;
-    }
-
-
-    .project:nth-child(odd) img{
-            grid-column: 6/11;
-            grid-row: 1/2;
-            border-right: 1px solid var(--aqua);
-            border-left: none;
-
-
-
-    }
-    .project:nth-child(odd) .text{
-        grid-column: 1/7;
-        grid-row: 1/2;
-        text-align: left;
-    }
-        .project:nth-child(odd) .tech-stack{
-        justify-content: flex-start;
     }
 
 
