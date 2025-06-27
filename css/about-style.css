@@ -153,19 +153,21 @@ background-color: var(--dkblue);
     padding: 1rem;
     border-radius: 10px;
     color: var(--white);
-    font-size: 1rem;
+    font-size: 1.35rem;
+    text-align: left;
     line-height: 1.5;
 }
 
 .about-rami .tech-stack{
     list-style: none;
     padding: 0;
+    color: var(--aqua);
     margin: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     gap: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .about-rami img{
