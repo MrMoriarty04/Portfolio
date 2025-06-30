@@ -123,7 +123,7 @@ background-color: var(--hotmag);
 }
 
 .intro-section {
-    padding:4rem 1rem 10rem 1rem;
+    padding:4rem 1rem 7.5rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -206,7 +206,6 @@ background-color: var(--dkblue);
 
 
 .contact-section {
-    font-size: 1rem;
     width: 344px;
     text-align: center;
     margin: 0 auto;
