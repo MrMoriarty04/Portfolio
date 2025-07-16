@@ -186,7 +186,8 @@ background-color: var(--dkblue);
 
 .my-projects .tech-stack{
     list-style: none;
-    padding: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: 0;
     display: flex;
     flex-flow: row wrap;
